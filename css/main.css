@@ -1,0 +1,840 @@
+/* orange #F15025*/
+/* black #353531*/
+/* navy blue #2D3142*/
+/* grey #CED0CE*/
+/* smoke white*/
+
+/*General rules*/
+
+html,body {
+  height: 100%;
+  
+}
+
+body{
+  font-family: 'Macondo', cursive;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/*header decorations*/
+.header h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 5px;  
+}
+
+.header-underline {
+	width: 150px;
+    border:3px solid #F15025;
+    margin: 0 auto 20px auto;  
+}
+
+.header p {
+    font-size: 18px;
+    padding: 0 30px;
+}
+/* font awesome nderline */
+.font-awesome-underline {
+	width: 150px;
+    border:3px solid #F15025;
+    margin: 20px auto 30px auto; 
+}
+
+.font-awesome-underline:after {
+	content: "\f133";
+    font-family: "FontAwesome";
+    font-size: 40px;
+    color: #F15025;
+    position: relative;
+    top: -10px;
+    background: white;
+    padding: 0 10px;
+}
+
+
+/*banner section*/
+#banner {
+  height: 100%;
+  
+  background: url("/Images/_MG_0098.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/*align vertical center*/
+
+#banner-content {
+  height: 100%;
+  width: 100%;
+  display: table;
+  }
+
+#banner-box {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*text and link*/
+#banner-box h1 {
+  margin: 0!important;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: black;
+  padding-left: 70px;
+}
+
+#banner-underline {
+  width: 600px;
+  align-content:flex-start;
+  border: 3px solid #F15025;
+  margin: 0 auto;
+}
+
+#banner-box a {
+  font-size: 30px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+  padding: 15px 20px;
+  margin-top: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#banner-box a:hover,
+#banner-box a:focus {
+  color: #F15025;
+  background-color: whitesmoke;  
+}
+
+/*Link down the page*/
+#banner-icon a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#banner-icon a:hover {
+  opacity: 0.6;
+  color: black;
+  border-color: black;
+  }
+
+
+
+/*services section*/
+#services {
+  background-color: #CED0CE;
+  padding: 40px;
+}
+
+.services-container .fa {
+	font-size: 100px;
+  color: #F15025;  
+}
+
+#services h2,h3,h4,h5 {
+  margin: 10px auto 20px auto;	
+}
+
+.services-container p {
+	font-size: 16px;
+  line-height: 1.5em;
+}
+
+.services-container {
+	padding: 20px 40px;
+}
+/*end of service section*/
+
+
+/*promise section decorations
+.promise-picture {
+	height: 900px;
+    background: url("/Images/promise/plasma.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}*/
+.promise-text {
+  height: 600px;
+  background-color: black;
+  padding: 40px 20px;
+}
+
+.promise-icon p {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+#promise .fa {
+  color: #F15025;
+  font-size: 40px;
+}
+
+/*end of promise section*/
+
+/*skill section*/
+
+#skills {
+  color: whitesmoke;
+  background-color: #353531;
+  padding: 40px 40px;
+}
+
+#skills .col-sm-4 {
+  padding: 0 40px;
+}
+
+#skills .progress {
+  border-radius: 0;
+  background-color: #CED0CE;
+    
+}
+/*end of skill section*/
+
+
+/*start of jumbotron section*/
+.jumbotron {
+  margin-bottom: 0!important;
+  padding: 40px;
+  background-color: #F15025;  
+}
+
+.jumbo h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+.jumbo a {
+  font-size: 30px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+  padding: 15px 20px;
+  margin-top: 40px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.jumbo a:hover {
+  color: #F15025;
+  background-color: whitesmoke;
+}
+/*end of jumbotron section*/
+
+/*start of work section*/
+#work {
+  background-color: #CED0CE;
+}
+
+#work .header {
+  padding: 40px;
+}
+
+#work  col-md-6{
+  padding:0;
+}
+
+#work .img-box {
+  overflow: hidden;
+}
+
+#work img {
+  transition: transform 4s ease-in-out;
+}
+
+#work img:hover {
+  transform: scale(1.1);
+}
+
+/*end of work section*/
+
+/*start of team section*/
+#team {
+  border-top: 6px solid #F15025;
+  padding: 40px;
+  background-color: whitesmoke;
+}
+
+#team img {
+  background-color: #F15025;
+}
+
+#team .fa {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #F15025;
+}
+
+#team .col-sm-6 {
+  margin: 40px 0;
+}
+/*end of team section*/
+
+
+/*Start of numbers section*/
+#numbers {
+  padding: 40px;
+  background: url('/Images/numbers/nature.jpg')fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+} 
+
+#numbers .fa {
+  font-size: 40px;
+  color: #F15025; 
+}
+
+#numbers .col-xs-4{
+  padding: 20px;
+}
+/*end of numbers section*/
+
+/*Start of Pricing section*/
+#pricing {
+  padding: 30px;
+  background-color:#CED0CE;
+}
+
+#pricing .col-sm-6 {
+padding-top: 25px;  
+}
+
+#pricing .panel{
+  border-color:orangered;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#pricing .panel-heading {
+  background-color: #F15025;
+}
+
+#pricing .panel-heading h3 {
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+#pricing .title {
+  margin: 10px 0 28px 0;
+}
+
+#pricing .title h1 {
+  font-size: 32px;
+}
+
+#pricing ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+#pricing ul li {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+#pricing .panel-footer {
+  color: whitesmoke;
+  background-color: black;
+  font-size: 18px;
+}
+
+#pricing .panel-footer a {
+  font-size: 14px;
+  color: #F15025;
+  border-color: #F15025;
+}
+
+#pricing .panel-footer a:hover {
+  background-color: whitesmoke;
+}
+
+#pricing hr {
+  width: 60%;
+  margin: 10px auto;
+  border: 2px solid #F15025!important;
+}
+/*end of Pricing section*/
+ 
+/*start of Goals section*/
+#goals {
+  padding: 20px 10px;
+  background-color: #2D3142;
+  color: whitesmoke;
+  }
+
+#goals .font-awesome-underline:after{
+  background-color: #2D3142;
+}
+
+#goals .fa {
+  float: left;
+  font-size: 35px;
+  color: #F15025;
+  border-right: 3px solid #F15025;
+  padding-right: 10px;
+}
+
+.goals-title * {
+  margin-top: 0;
+}
+
+.goals-title {
+	margin-left: 60px;
+}
+
+#goals p {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+#goals .col-sm-6 {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#goals .col-sm-6:hover {
+  background-color: #353531;
+  border-radius: 15px;
+  color: #CED0CE;
+}
+
+#goals .col-sm-6:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+} 
+
+#goals .col-sm-6:before {
+  border-top: solid 15px #2D3142;
+  border-right: solid 15px #2D3142;
+  border-left: solid 15px #F15025;
+  border-bottom: solid 15px #F15025;
+}
+/*end of Goals section*/
+
+/*Start of Portfolio section*/
+
+#portfolio {
+  background-color: whitesmoke;
+  padding-top: 20px;
+  border-bottom: 6px solid #F15025
+}
+
+#portfolio .font-awesome-underline:after {
+  background-color: whitesmoke; 
+}
+
+#portfolio .col-md-6 {
+ padding: 0;
+}
+
+.portfolio-background {
+  background: rgba(0,0,0,0.7);
+}
+
+.portfolio-thumb {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#portfolio img {
+  width: 100%;
+  height: 100%
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+}
+
+.portfolio-overlay h2 {
+  margin: 0;
+  font-size: 60px;
+  color: #F15025;
+}
+
+.portfolio-thumb:hover {
+  opacity: 0.5;
+}
+
+.portfolio-thumb:hover .portfolio-overlay {
+	visibility: visible;
+}
+/*end of Portfolio section*/
+
+
+/*Start of OWL- Client section*/
+
+#clients {
+  padding: 60px 40px;
+  background-color: darkgray;
+}
+
+#clients img {
+  width: 200px;
+  height: 220px;
+}
+
+#clients .font-awesome-underline:after{
+  background-color: darkgray;
+}
+
+#clients .header {
+  padding-bottom: 20px;
+}
+ 
+/*end of OWL-Client section*/
+
+
+/*start of OWL-Work carousel Portfolio section*/
+
+##work-carousel {
+  padding: 40px 20px;
+}
+
+#work-carousel {
+  background-color: #CED0CE;
+}
+
+#work-carousel .font-awesome-underline:after{
+  background-color: #CED0CE;
+}
+
+#work-carousel .header {
+  padding-bottom: 20px;
+}
+
+#work-carousel img {
+  width: 200px;
+  height: 260px;
+}
+
+/*end of OWL-Work carousel Portfolio section*/
+
+
+/*start of OWL-Quotes of people section*/
+#quotes {
+  color: whitesmoke;
+  background: url('/Images/FaceCollage.jpg')fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.quotes-background {
+background: rgba(0,0,0,0.5);	
+}
+
+
+#quotes .font-awesome-underline:after{
+  background: url('/Images/FaceCollage.jpg'); 
+}
+
+#quotes .header {
+  padding-bottom: 20px;
+}
+
+#quotes .container {
+  padding: 40px 20px;
+}
+
+#quotes img {
+  width: 300px;
+  height: 290px;
+  background-color: #F15025;
+  border: 2px solid darkorange;
+}
+
+#quotes blockquote {
+  border-left: 0;
+  line-height: 2;
+  font-size: 40px;
+  color: darkorange;
+}
+
+#quotes blockquote footer {
+  color: darkorange;
+  font-size: 40px;
+}
+
+#quotes .fa {
+  color: #F15025;
+  font-size: 35px;
+  margin: 0 10px;
+  
+}
+/*end of OWL-Quotes of people section*/
+
+ 
+/*Start of Contact Section*/
+
+#contact {
+  background-color: #F15025;
+  color: whitesmoke;
+  padding: 40px 0px;
+}
+
+#contact .font-awesome-underline {
+	width: 150px;
+    border:3px solid #353531;
+    margin: 20px auto 30px auto; 
+}
+
+#contact .font-awesome-underline:after{
+  background-color: #F15025; 
+  color: black;
+}
+
+#contact .header {
+  padding-bottom: 20px;
+}
+
+#contact .form-control {
+  border-radius: 0;
+  font-size: 18px;
+}
+
+#contact button {
+  background-color: #353531;
+  font-size: 24px;
+  color: #F15025;
+  margin-bottom: 20px;
+}
+
+#contact button:hover {
+  background-color: #CED0CE;
+  color: #353531;
+}
+
+#contact .col-sm-6:not(.iframe) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#contact p {
+  font-size: 24px;
+}
+
+#contact .col-sm-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*end of Contact Section*/
+
+/*Start of Footer section*/
+
+#footer {
+  padding: 20px 40px;
+  color: whitesmoke;
+  background-color: #353531;
+}
+
+#footer .font-awesome-underline:after{
+  background-color: #353531; 
+}
+
+#footer .footer-icons{
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+#footer .footer-icons a {
+  color:#F15025;
+  text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+  color: deepskyblue;
+}
+
+#footer .copyrights h3 {
+  padding: 40px 0;
+  color: #CED0CE;
+}
+
+#footer .header h1 {
+  font-size: 30px;
+}
+/*end of Footer section*/
+
+
+/*Nav bar decorations*/
+.navbar {
+  border: 0;
+  padding: 10px 0;
+  transition: all 1s ease-in-out;
+}
+
+.transparent {
+  background: rgba(0,0,0,0.7);
+}
+
+nav a {
+  color: white !important;
+}
+
+nav a:hover {
+  color: black !important;
+}
+
+.active a {
+  background: none!important;
+  color: #F15025!important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-style: italic;
+  color: #F15025!important;
+}
+
+/*toggle styling*/
+.navbar-toggler{
+	color: green;
+  font-size: 20px;
+  border-color: white !omportant;
+}
+
+.navbar-toggler:hover
+.navbar-toggler:focus {
+  background-color: white !important;
+  color: #F15025;
+}
+ .navbar-collapse {
+	border-color: #F15025 !important;
+   max-height: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
